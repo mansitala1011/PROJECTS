@@ -1,0 +1,691 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-1 {
+    background-color: #fde2d8;
+    padding: 50px;
+}
+
+nav {
+    background-color: rgb(1, 1, 45);
+    display: flex;
+    border-radius: 30px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    margin: 0 20px 0 20px;
+}
+
+.logo {
+    margin-left: 30px;
+    font-weight: 900;
+    font-size: large;
+}
+
+ul {
+    gap: 50px;
+    list-style: none;
+    display: flex;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.sign {
+    margin-right: 30px;
+    color: green;
+    font-size: large;
+    text-decoration: none;
+}
+
+.text {
+    padding: 50px;
+    color: rgb(1, 1, 45);
+    font-family: "Playfair Display";
+}
+
+.text h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.text h5 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.text p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+button {
+    background-color: orangered;
+    border-radius: 30px;
+    font-size: 21px;
+    color: #ebe3cd;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+.lamp {
+    position: absolute;
+    top: 90px;
+    right: 400px;
+}
+
+.window-1 {
+    position: absolute;
+    top: 300px;
+    right: 600px;
+}
+
+.window-2 {
+    position: absolute;
+    top: 300px;
+    right: 100px;
+}
+
+.ilustration {
+    position: relative;
+    top: -200px;
+    left: 400px;
+    height: 80px;
+    width: 80px;
+}
+
+.plant {
+    position: absolute;
+    top: 570px;
+    left: 450px;
+}
+
+.book {
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.box {
+    height: 150px;
+    background-color: white;
+    border-radius: 30px;
+    border-color: 2px solid blue;
+    filter: drop-shadow(0 10px 10px black);
+}
+
+/* second page */
+
+.second01 {
+    padding: 50px;
+    padding-left: 50px;
+    background-color: #fde2d8;
+}
+
+.second p {
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Montserrat";
+}
+
+.second h1 {
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    font-family: "Montserrat";
+    font-size: 45px;
+}
+
+.dish01 {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.dish {
+    background-color: white;
+    height: 500px;
+    width: 280px;
+    border-radius: 30px;
+}
+
+.dish h1 {
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    font-family: "Montserrat";
+}
+
+.dish p {
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    font-family: "Montserrat";
+}
+
+.img1 {
+    padding: 40px;
+}
+
+.dish button {
+    color: white;
+    background-color: orangered;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 60px;
+}
+
+.dish-1 {
+    background-color: white;
+    height: 500px;
+    width: 280px;
+    border-radius: 30px;
+}
+
+.dish-1 h1 {
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    font-family: "Montserrat";
+}
+
+.dish-1 p {
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    font-family: "Montserrat";
+}
+
+.img2 {
+    padding: 40px;
+}
+
+.dish-1 button {
+    color: white;
+    background-color: orangered;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 60px;
+}
+
+.dish-2 {
+    background-color: white;
+    height: 500px;
+    width: 280px;
+    border-radius: 30px;
+}
+
+.dish-2 h1 {
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    font-family: "Montserrat";
+}
+
+.dish-2 p {
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    font-family: "Montserrat";
+}
+
+.img3 {
+    padding: 40px;
+}
+
+.dish-2 button {
+    color: white;
+    background-color: orangered;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 60px;
+}
+
+/* third page  */
+
+.third {
+    padding: 50px;
+    background-color: #fde2d8;
+}
+
+.third p {
+    font-size: 20px;
+    line-height: 40px;
+    color: #6bb99c;
+    font-weight: 600;
+    font-family: "Montserrat";  
+    text-align: center;
+}
+
+.third h1 {
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 900;
+    font-family: "Montserrat";  
+    text-align: center;
+}
+
+.third button {
+    color: white;
+    background-color: #6bb99c;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 630px;
+}
+
+.ilustration1 {
+    position: absolute;
+    top: 2350px;
+    left: 450px;
+}
+
+.table-1 {
+    position: absolute;
+    top: 2400px;
+    right: 85px;
+}
+
+.table-2 {
+    position: absolute;
+    top: 2400px;
+    left: 75px;
+}
+
+.table-3 {
+    position: absolute;
+    top: 2060px;
+    right: 12px;
+}
+
+.table-4 {
+    position: absolute;
+    top: 2060px;
+    left: 12px;
+}
+
+/* forth page  */
+
+.forth01 {
+    background-color: #fde2d8;
+    padding-top: 800px;
+}
+
+.forth h4 {
+    font-family: "Montserrat"; 
+    color: orange;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 150px;
+}
+
+.forth h1 {
+    font-family: "Montserrat"; 
+    font-size: 45px;
+    font-weight: 800px;
+    margin-left: 150px;
+}
+
+.forth p {
+    font-family: "Montserrat"; 
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 150px;
+}
+
+.forth button {
+    margin-left: 150px;
+    color: white;
+    background-color: orangered;
+    font-size: large;
+}
+
+.plant1 {
+    position: absolute;
+    top: 2950px;
+    right: 100px;
+}
+
+.ilutration-1 {
+    position: absolute;
+    top: 3000px;
+    right: 500px;
+}
+
+.ilustration-2 {
+    position: absolute;
+    top: 3100px;
+    right: 100px;
+}
+
+/* fifth page  */
+
+.fifth01 {
+    background-color: #fde2d8;
+    padding-top: 400px; 
+}
+
+.ilustra {
+    position: absolute;
+    top: 3800px;
+    left: 100px;
+}
+
+.fifth {
+    padding-left: 1000px;
+}
+
+.fifth h4 {
+    font-family: "Montserrat"; 
+    color: orange;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.fifth h1 {
+    font-family: "Montserrat"; 
+    font-size: 45px;
+    font-weight: 800px;
+}
+
+.fifth p {
+    font-family: "Montserrat"; 
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fifth button {
+    color: white;
+    background-color: #6bb99c;
+    font-size: large;
+}
+
+/* sixth page  */
+
+.sixth01 {
+    background-color: #fde2d8;
+    padding: 50px;
+    padding-top: 300px; 
+}
+
+.sixth {
+    background-color: white;
+    height: 700px;
+    border-radius: 40px;
+    padding-top: 150px;
+}
+
+.sixth h4 {
+    font-family: "Montserrat"; 
+    color: orange;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.sixth h1 {
+    font-family: "Montserrat"; 
+    font-size: 45px;
+    font-weight: 800px;
+    margin-left: 100px;
+}
+
+.sixth p {
+    font-family: "Montserrat"; 
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 100px;
+}
+
+.sixth button {
+    margin-left: 100px;
+    color: white;
+    background-color: orangered;
+    font-size: large;
+}
+
+.mastersafe {
+    position: absolute;
+    top: 4700px;
+    right: 90px;
+}
+
+.cooking {
+    position: absolute;
+    top: 4750px;
+    right: 670px;
+}
+
+/* seventh page  */
+
+.seventh01 {
+    background-color: #fde2d8;
+    padding: 80px; 
+}
+
+.seventh h4 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500px;
+    font-family: "Montserrat"; 
+    color: orangered;
+}
+
+.seventh h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Montserrat"; 
+}
+
+.customers {
+    display: flex;
+    padding-left: 100px;
+}
+
+.customer-1 {
+    height: 250px;
+    width: 500px;
+    border-radius: 30px;
+    background-color: white;
+    margin: 50px;
+    display: flex;
+}
+
+.data-1 {
+    margin-top: 50px;
+}
+
+.photo-1 {
+    padding: 40px;
+}
+
+.customer-2 {
+    height: 250px;
+    width: 500px;
+    border-radius: 30px;
+    background-color: white;
+    margin: 50px;
+    display: flex;
+}
+
+.data-2 {
+    margin-top: 50px;
+}
+
+.photo-2 {
+    padding: 40px;
+}
+
+.sevenup {
+    padding-left: 400px;
+}
+
+.customer-3 {
+    height: 250px;
+    width: 500px;
+    border-radius: 30px;
+    background-color: white;
+    margin: 50px;
+    display: flex;
+}
+
+.data-3 {
+    margin-top: 50px;
+}
+
+.photo-3 {
+    padding: 40px;
+}
+
+/* eighth page  */
+
+.eighth01 {
+    background-color: #fde2d8;
+    padding: 80px;
+}
+
+.eighth h4 {
+    color: orange;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 600px;
+    text-align: center;
+}
+
+.eighth h1 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.eighth b {
+    /* align-items: start; */
+}
+
+.name {
+    height: 50px;
+    width: 800px;
+    border-radius: 30px;
+    background-color: #ccc1a3;
+    border: 2px solid #faf8ef;
+    margin-left: 300px;
+}
+
+.mail {
+    height: 50px;
+    width: 800px;
+    margin-left: 300px;
+    border-radius: 30px;
+    background-color: #ccc1a3;
+    border: 2px solid #faf8ef;
+}
+
+.message {
+    height: 200px;
+    width: 800px;
+    margin-left: 300px;
+    border-radius: 40px;
+    background-color: #ccc1a3;
+    border: 2px solid #faf8ef;
+}
+
+.eighth button {
+    color: black;
+    background-color: #6bb99c;
+    font-size: large;
+    margin-left: 550px;
+    border: none;
+    height: 50px;
+    width: 300px;
+}
+
+.avocado {
+    position: absolute;
+    top: 6970px;
+    left: 100px;
+}
+
+.leaf-1 {
+    position: absolute;
+    top: 6500px;
+    left: 100px;
+}
+
+.lemon {
+    position: absolute;
+    top: 6450px;
+    right: 100px;
+}
+
+.leaf-2 {
+    position: absolute;
+    top: 6970px;
+    right: 100px;
+}
+
+/* ninth page  */
+
+.ninth01 {
+    background-color: orange;
+    padding: 150px;
+    display: flex;
+    gap: 50px;
+}
+
+.nineth h1 {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 35px;
+}
+
+.nineth h4 {
+    color: black;
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+
+.peregraf-2 h1 {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 35px;
+}
+
+.peregraf-2 h4 {
+    color: black;
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+
+.peregraf-3 h1 {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 35px;
+    margin-left: 300px;
+}
+
+.lastbtn {
+    height: 40px;
+    border-color: 3px solid grey;
+    background-color: orange;
+    margin-left: 200px;
+}
+
+.icons {
+    display: flex;
+    margin-left: 200px;
+}

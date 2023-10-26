@@ -1,0 +1,556 @@
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* first page */
+
+nav {
+    background-color: navy;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+
+.susibg {
+    background-image: url(../PROJECTS/IMAGE/susibg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px;
+}
+
+.susibg h1 {
+    color: white;
+    font-weight: 800;
+    font-family: "Montserrat";
+    font-size: 90px;
+}
+
+.susibg p {
+    color: white;
+    font-weight: 600;
+    font-family: "Montserrat";
+    font-size: 30px;
+}
+
+.susibg button {
+    border-radius: 30px;
+    background-color: navy;
+    color: white;
+    font-weight: 600;
+    font-family: "Montserrat";
+    font-size: 25px;
+    width: 250px;
+    height: 40px;
+
+}
+
+/* second page  */
+
+header {
+    overflow: hidden;
+    position: relative;
+}
+
+.first01 {
+    background-color: navy;
+    padding: 90px;
+}
+
+
+.first h1 {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+
+.first p {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.boll {
+    position: absolute;
+    top: -20px;
+    right: -30px;
+}
+
+.boll1 {
+    position: absolute;
+    top: 500px;
+    left: -70px;
+}
+
+.part {
+    display: flex;
+    padding-left: 200px;
+    gap: 150px;
+}
+
+.content img {
+    border-radius: 50%;
+}
+
+.content2 img {
+    border-radius: 50%;
+}
+
+.content3 img {
+    border-radius: 50%;
+}
+
+.content {
+    gap: 150px;
+}
+
+.content h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.content p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.content2 h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.content2 p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.content3 h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.content3 p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.dots {
+    position: absolute;
+    top: -10px;
+    left: 200px;
+}
+
+.dots1 {
+    position: absolute;
+    top: 300px;
+    right: -10px;
+}
+
+.zikzek {
+    position: absolute;
+    top: 600px;
+    right: 3px;
+}
+
+.zikzek1 {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+/* third page  */
+
+.third01 {
+    background-color: khaki;
+    display: flex;
+}
+
+.third img {
+    z-index: 2;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    align-items: center;
+    border-radius: 50%;
+    margin: 150px 150px;
+
+}
+
+.col-50 {
+    padding: 50px;
+}
+
+.col-50 h1 {
+    margin: 0 auto;
+    padding-top: 200px;
+    color: navy;
+    font-weight: 800;
+    font-family: "Montserrat";
+    font-size: 70px;
+}
+
+.col-50 p {
+    color: navy;
+    font-weight: 600;
+    font-family: "Montserrat";
+    font-size: 25px;
+}
+
+.col-50 button {
+    border-radius: 30px;
+    background-color: navy;
+    color: white;
+    font-weight: 600;
+    font-family: "Montserrat";
+    font-size: 25px;
+    width: 250px;
+    height: 40px;
+}
+
+.img1 {
+    z-index: 1;
+    position: absolute;
+    top: 1600px;
+    left: 150px;
+}
+
+.img2 {
+    position: absolute;
+    top: 1680px;
+    right: 550px;
+}
+
+.img3 {
+    position: absolute;
+    top: 1590px;
+    right: 50px;
+}
+
+.img4 {
+    position: absolute;
+    top: 2100px;
+    left: 40px;
+}
+
+.img5 {
+    position: absolute;
+    top: 2100px;
+    right: 1px;
+}
+
+/* forth page  */
+
+.forth01 {
+    background-color: navy;
+    padding: 200px;
+    position: relative;
+}
+
+.forth h1 {
+    color: white;
+    font-size: 70px;
+    font-family: "Montserrat";
+    font-weight: 600px;
+    text-align: center;
+}
+
+.forth p {
+    color: white;
+    font-size: 25px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    text-align: center;
+}
+
+.circles {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.circle1 {
+    color: white;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid white;
+    padding-top: 90px;
+    font-size: 90px;
+}
+
+.circle2 {
+    color: white;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid white;
+    padding-top: 90px;
+}
+
+.circle3 {
+    color: white;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid white;
+    padding-top: 90px;
+}
+
+.pic1 {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+.pic2 {
+    position: absolute;
+    top: 6%;
+    left: 6%;
+}
+
+.pic3 {
+    position: absolute;
+    top: 22%;
+    left: 7%;
+}
+
+.pic4 {
+    position: absolute;
+    top: 88%;
+    left: 10%;
+}
+
+.pic5 {
+    position: absolute;
+    top: 85%;
+    right: 30%;
+}
+
+.pic6 {
+    position: absolute;
+    top: 90%;
+    right: 10%;
+}
+
+/* fifth page  */
+
+.fifth01 {
+    background-color: khaki;
+    padding: 100px;
+    display: flex;
+    position: relative;
+}
+
+.fifth h1 {
+    color: navy;
+    margin: 0 auto;
+    padding-top: 200px;
+    font-weight: 800;
+    font-family: "Montserrat";
+    font-size: 70px;
+}
+
+.fifth p {
+    color: navy;
+    font-weight: 600;
+    font-family: "Montserrat";
+    font-size: 25px;
+}
+
+.fifth button {
+    border-radius: 30px;
+    background-color: navy;
+    color: white;
+    font-weight: 600;
+    font-family: "Montserrat";
+    font-size: 25px;
+    width: 250px;
+    height: 40px;
+}
+
+.sushi2 img {
+    z-index: 2;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 0 130px 180px;
+
+}
+
+.photo1 {
+    position: absolute;
+    top: 7%;
+    right: 20%;
+}
+
+.photo2 {
+    position: absolute;
+    top: 5%;
+    right: 50%;
+}
+
+.photo3 {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+
+.photo4 {
+    position: absolute;
+    top: 70%;
+    right: 10%;
+}
+
+.photo5 {
+    position: absolute;
+    top: 70%;
+    right: 50%;
+}
+
+/* sixth page  */
+
+.sixth01 {
+    background-image: url(../PROJECTS/IMAGE/bluebg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 140px;
+}
+
+.sixth img {
+    padding-left: 40%;
+}
+
+.sixth01 p {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.sixth01 h1 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* seventh page  */
+
+.seventh01 {
+    background-color: khaki;
+    padding: 200px;
+    position: relative;
+    padding-bottom: 300px;
+}
+
+.seventh h1 {
+    color: navy;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.seventh p {
+    color: navy;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 400; 
+}
+
+.email {
+    background-color: white;
+    color: gray;
+    height: 50px;
+    width: 500px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    top: 60%;
+    right: 45%;
+}
+
+.subscribe {
+    background-color: navy;
+    color: white;
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    top: 60%;
+    right: 30%;
+}
+
+.picture1 {
+    position: absolute;
+    top: 10%;
+    right: 2%;
+}
+
+.picture2 {
+    position: absolute;
+    top: 73%;
+    right: 50%;
+}
+
+.picture3 {
+    position: absolute;
+    top: 20%;
+    right: 30%;
+}
+
+.picture4 {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+
+.picture5 {
+    position: absolute;
+    top: 70%;
+    right: 5%;
+}
+
+.picture6 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+/* footer  */
+
+.footer01 {
+    background-color: black;
+    color: white;
+    padding: 200px;
+}
+
+.footer {
+    display: flex;
+    gap: 50px;
+}
+
+.footer ul {
+    display: inline;
+}

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: white;
+    padding: 80px;
+    color: gray;
+    align-items: end;
+    display: flex;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 500px;
+    gap: 50px;
+}
+
+.header i {
+   gap: 50px;
+}
+
+.homy {
+    display: flex;
+}
+
+.homy ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    gap: 50px;
+}
+
+/* second page  */
+
+.second01 {
+    background-color: white;
+    padding: 100px;
+}
+
+.second {
+    display: flex;
+}
+
+.second p {
+    font-size: large;
+    font-weight: 300;
+    padding: 200px 0 200px 200px;
+}
