@@ -124,6 +124,20 @@ button {
     border-radius: 30px;
     border-color: 2px solid blue;
     filter: drop-shadow(0 10px 10px black);
+    padding: 70px;
+}
+
+.time-date {
+    justify-content: space-around;
+}
+
+.time-date input {
+    background-color: #fde2d8;
+    font-size: 17px;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+
 }
 
 /* second page */
@@ -474,6 +488,7 @@ button {
 .seventh01 {
     background-color: #fde2d8;
     padding: 80px; 
+    /* align-items: center; */
 }
 
 .seventh h4 {
@@ -531,7 +546,7 @@ button {
 }
 
 .sevenup {
-    padding-left: 400px;
+    padding-left: 500px; 
 }
 
 .customer-3 {
@@ -573,8 +588,8 @@ button {
     text-align: center;
 }
 
-.eighth b {
-    /* align-items: start; */
+.eighth {
+    text-align: left;
 }
 
 .name {
@@ -678,8 +693,9 @@ button {
     margin-left: 300px;
 }
 
-.lastbtn {
+.lastbtn  button {
     height: 40px;
+    width: 350px;
     border-color: 3px solid grey;
     background-color: orange;
     margin-left: 200px;
