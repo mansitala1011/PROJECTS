@@ -1,0 +1,112 @@
+@media (min-width: 1200px) { 
+
+    /* second page  */
+
+    .part {
+        padding-left: 100px;
+        gap: 60px;
+    }
+
+    /* third pae  */
+
+    .third img {
+        height: 450px;
+        width: 450px;
+        margin: 150px 100px; 
+    }
+
+    .col-50 h1 {
+        padding-top: 200px;
+        font-size: 70px;
+    }
+    
+    .col-50 p {
+        font-size: 22px;
+    }
+
+    .img1 {
+        top: 1650px;
+        left: 150px;
+    }
+    
+    .img2 {
+        top: 1700px;
+        right: 500px;
+    }
+    
+    .img3 {
+        top: 1630px;
+    }
+    
+    .img5 {
+        top: 2100px;
+        right: 10px;
+    }
+
+    /* forth page  */
+
+    .forth01 {
+        padding: 100px;
+    }
+
+    .pic3 {
+        top: 30%;
+        left: 5%;
+    }
+    
+    /* fifth page  */
+ 
+    .fifth h1 {
+        padding-top: 100px;
+        font-size: 60px;
+    }
+    
+    .fifth p {
+        font-size: 22px;
+    }
+    
+    .fifth button {
+        font-size: 20px;
+        width: 200px;
+    }
+    
+    .sushi2 img {
+        height: 400px;
+        width: 400px;
+        margin: 0 0 130px 130px;
+    }
+    
+    .photo1 {
+        top: 3%;
+        right: 17%;
+    }
+    
+    .photo3 {
+        top: 20%;
+    }
+
+    /* sixth page  */
+
+    .sixth01 {
+        padding: 120px;
+    }
+    
+    .sixth01 p {
+        font-size: 30px;
+    }
+    
+    .sixth01 h1 {
+        font-size: 30px;
+    }
+
+    /* seventh page  */
+    
+    .email {
+        right: 35%;
+    }
+    
+    .subscribe {
+        right: 20%;
+    }
+
+}

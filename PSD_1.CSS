@@ -584,3 +584,169 @@
             padding: 300px;
             justify-content: space-between;
         }
+
+        @media (min-width: 1200px) { 
+
+            /* first page  */
+
+            nav ul {
+            gap: 5px;
+        }
+
+        /* secong page  */
+
+        .stiker1 {
+            right: 100px;
+        }
+
+        .stiker3 {
+            top: 1540px;
+        }
+
+        .stiker4 {
+            top: 1500px;
+        }
+
+        /* forth page  */
+
+        .third img {
+            margin: 50px 50px;
+        } 
+
+        .text h1 {
+            padding-top: 100px;
+        }
+
+        .prochild {
+            font-size: 30px;
+        }
+
+        .burger2 img {
+            margin: 20px 0 50px 50px;
+        }
+
+        .pic1 {
+            top: 2350px;
+            left: 450px;
+        }
+
+        .pic3 {
+            top: 2950px;
+        }
+
+        .pic4 {
+            top: 2950px;
+            left: 600px;
+        }
+
+        .pic5 {
+            top: 2900px;
+        }
+
+        .pic6 {
+            top: 2500px;
+            right: 40px;
+        }
+
+        /* sixth page  */
+
+        .sixth {
+            padding: 60px;
+            font-size: 30px;
+        }
+
+        .photo1 {
+            top: 3800px;
+            right: 150px;
+        }
+
+        .photo2 {
+            right: 0px;
+        }
+
+        .photo3 {
+            top: 4330px;
+            right: 330px;
+        }
+
+        .photo4 {
+            top: 4150px;
+            left: 0px;
+        }
+
+        .photo5 {
+            top: 3850px;
+            left: 60px;
+        }
+
+        .photo6 {
+            top: 4390px;
+        }
+
+        /* eighth page  */
+
+        .eight01 h1 {
+            font-size: 75px;
+        }
+
+        .eight01 p {
+            font-size: 30px;
+        }
+
+        .table {
+            padding-left: 230px;
+        }
+
+        .cover1 {
+            top: 5300px;
+            right: 50px;
+        }
+
+        .cover2 {
+            top: 5650px;
+            right: 60px;
+        }
+
+        .cover3 {
+            top: 5920px;
+            right: 150px;
+        }
+
+        .cover4 {
+            top: 5950px;
+            right: 500px;
+        }
+
+        .cover5 {
+            top: 5900px;
+        }
+
+        .cover6 {
+            top: 5700px;
+            left: 50px;
+        }
+
+        .cover7 {
+            top: 5400px;
+            left: 100px;
+        }
+
+        .cover8 {
+            top: 5350px;
+            left: 500px;
+        }
+
+        /* ninth page  */
+
+        .nine {
+            padding: 200px;
+        }
+
+
+        }
+
+        @media (min-width: 576px) { 
+
+         }
+            
+         
