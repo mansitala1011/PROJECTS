@@ -1,0 +1,74 @@
+@media (min-width: 1200px) { 
+
+    /* first page  */
+
+    .get {
+        padding-left: 200px;
+    }
+
+    /* third page  */
+
+    .col-50 {
+        padding: 100px;
+    }
+    
+    /* forth page  */
+
+    .menus img {
+        height: 250px;
+        width: 340px;
+    }
+
+    .half img {
+        width: 250px;
+        height: 210px;
+    }
+
+    .menus {
+        display: flex;
+        padding: 80px;
+        padding-left: 270px;
+    }
+
+    /* sixth page  */
+
+    .COL-50 {
+        padding: 50px;
+    }
+
+    .vside {
+        padding: 70px;
+    }
+
+    .vside h1 {
+        font-size: 30px;
+    }
+
+    /* seventh page  */
+
+    .lables {
+        padding: 30px;
+    }
+   
+    input {
+        height: 50px;
+        width: 480px;
+    }
+    
+    .message input {
+        height: 200px;
+        width: 480px;
+    }
+    
+    /* eighth page  */
+
+    .eighth01 {
+        padding: 70px;
+    }
+
+    .footer {
+        gap: 30px;
+        font-size: 17px;
+     }
+
+ }

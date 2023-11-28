@@ -8,7 +8,6 @@
     background-image: url(..//PROJECTS//IMAGE/Background\ \(2\).png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
     align-items: center;
     padding: 50px;
 }
@@ -152,10 +151,20 @@ ul {
     text-align: center;
 }
 
+.menus img {
+    width: 550px;
+    height: 360px;
+}
+
+.half img {
+    width: 220px;
+    height: 310px;
+}
+
 .menus {
     display: flex;
     padding: 70px;
-    padding-left: 160px;
+    padding-left: 200px;
 }
 
 .pagination {
@@ -362,9 +371,3 @@ input {
 .footer h3 {
     color: bisque;
 }
-
-@media (min-width: 1200px) { 
-
-
-
- }
