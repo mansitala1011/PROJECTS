@@ -151,6 +151,18 @@ ul {
     text-align: center;
 }
 
+.box1 {
+    background-color: white;
+    padding: 15px;
+    font-size: 13px;
+}
+
+.box2 {
+    background-color: white;
+    padding: 15px;
+    font-size: 13px;
+}
+
 .menus img {
     width: 550px;
     height: 360px;

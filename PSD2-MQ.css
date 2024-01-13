@@ -1,6 +1,6 @@
  @media(max-width:1200px) {
 
-    /* first page  */
+     /* first page  */
 
      .ilustration .wi {
          width: 700px;
@@ -8,167 +8,372 @@
      }
 
      .plant {
-        top: 550px;
-        left: 410px;
+         top: 550px;
+         left: 410px;
+     }
+
+     .lamp {
+         right: 250px;
+     }
+
+     .window-1 {
+         top: 300px;
+         right: 400px;
+     }
+
+     .window-2 {
+         position: absolute;
+         top: 300px;
+         right: 50px;
+     }
+
+     .time-date input {
+         width: 230px;
+     }
+
+     /* second page  */
+
+     .dish01 {
+         padding: 30px;
+     }
+
+     /* third page  */
+
+     .third button {
+         margin-left: 480px;
+     }
+
+     .ilustration1 {
+         /* height: 100px;
+        width: 200px; */
+         top: 2350px;
+         left: 300px;
+     }
+
+     /* forth page  */
+
+     .forth h4 {
+         margin-left: 50px;
+     }
+
+     .forth h1 {
+         font-size: 35px;
+         margin-left: 50px;
+     }
+
+     .forth p {
+         font-size: 20px;
+         margin-left: 50px;
+     }
+
+     .forth button {
+         margin-left: 50px;
+     }
+
+     .plant1 {
+         right: 50px;
+     }
+
+     .ilutration-1 {
+         right: 470px;
+     }
+
+     .ilustration-2 {
+         right: 70px;
+     }
+
+     /* fifth page  */
+
+     .fifth01 {
+         padding-top: 300px;
+     }
+
+     .ilustra {
+         top: 3750px;
+         left: 50px;
+     }
+
+     .fifth {
+         padding-left: 800px;
+     }
+
+     /* sixth page  */
+
+     .mastersafe {
+         top: 4550px;
+     }
+
+     .cooking {
+         top: 4600px;
+         right: 500px;
+     }
+
+     /* seventh page  */
+
+     .seventh01 {
+         padding: 5px;
+     }
+
+     .customers {
+         padding-left: 10px;
+     }
+
+     .customer-3 {
+         margin-left: 350px;
+     }
+
+     /* eighth page  */
+
+     .name {
+         margin-left: 150px;
+     }
+
+     .mail {
+         margin-left: 150px;
+     }
+
+     .message {
+         margin-left: 150px;
+     }
+
+     .eighth button {
+         margin-left: 400px;
+     }
+
+     .avocado {
+         top: 6800px;
+         left: 50px;
+     }
+
+     .leaf-1 {
+         top: 6300px;
+         left: 50px;
+     }
+
+     .lemon {
+         top: 6250px;
+         right: 50px;
+     }
+
+     .leaf-2 {
+         top: 6800px;
+         right: 70px;
+     }
+
+     /* nineth page  */
+
+     .ninth01 {
+         padding: 100px;
+         gap: 25px;
+     }
+
+     .peregraf-3 h1 {
+         font-size: 30px;
+         margin-left: 200px;
+     }
+ }
+
+ @media (min-width: 992px) {
+
+     /* first page  */
+
+    .text {
+        padding: 10px;
     }
 
-    .lamp {
-        right: 250px;
-    }
+     .ilustration {
+         width: 500px;
+         height: 300px;
+         top: -150px;
+         left: 200px;
+     }
 
-    .window-1 {
-        top: 300px;
-        right: 400px;
+     .plant {
+         top: 460px;
+         left: 220px;
+     }
+
+     .text h1 {
+        font-size: 50px;
     }
     
-    .window-2 {
-        position: absolute;
-        top: 300px;
-        right: 50px;
+    .text h5 {
+        font-size: 20px;
+    }
+    
+    .text p {
+        font-size: 15px;
+    }
+    
+    button {
+        margin-left: 10px;
     }
 
     .time-date input {
-        width: 230px;
+        font-size: 17px;
+        height: 50px;
+        width: 190px;
+    
+    }
+
+    .lamp {
+        top: 80px;
+        right: 200px;
+    }
+    
+    .window-1 {
+        top: 200px;
+        right: 330px;
+    }
+    
+    .window-2 {
+        top: 200px;
+        right: 30px;
     }
 
     /* second page  */
 
-    .dish01 {
+    .second01 {
         padding: 30px;
-    }    
+        padding-left: 20px;
+    }
 
     /* third page  */
 
+    .third p {
+        font-size: 15px;
+    }
+    
+    .third h1 {
+        font-size: 25px;
+    }
+
     .third button {
-        margin-left: 480px;
+        margin-left: 370px;
     }
 
     .ilustration1 {
-        /* height: 100px;
-        width: 200px; */
-        top: 2350px;
-        left: 300px;
+        left: 200px;
     }
 
+    .table-1 {
+        right: 5px;
+    }
+    
+    .table-2 {
+        left: 5px;
+    }
+    
     /* forth page  */
 
+    .ilutration-1 {
+        top: 2980px;
+        right: 400px;
+    }
+
+    .ilustration-2 {
+        right: 50px;
+    }
+
     .forth h4 {
-        margin-left: 50px;
+        font-size: 20px;
     }
 
     .forth h1 {
         font-size: 35px;
-        margin-left: 50px;
     }
-
+    
     .forth p {
-        font-size: 20px;
-        margin-left: 50px;
-    }
-
-    .forth button {
-        margin-left: 50px;
-    }
-
-    .plant1 {
-        right: 50px;
-    }
-    
-    .ilutration-1 {
-        right: 470px;
-    }
-    
-    .ilustration-2 {
-        right: 70px;
+        font-size: 13px;
     }
 
     /* fifth page  */
 
-    .fifth01 {
-        padding-top: 300px; 
-    }
-
     .ilustra {
-        top: 3750px;
-        left: 50px;
+        top: 3700px;
+        left: 10px;
     }
 
     .fifth {
-        padding-left: 800px;
+        padding-left: 700px;
+    }
+
+    .fifth h1 {
+        font-size: 25px;
+    }
+
+    .fifth p {
+        font-size: 15px;
+    }
+    
+    .fifth button {
+        font-size: 15px;
     }
 
     /* sixth page  */
 
-    .mastersafe {
-        top: 4600px;
-    }
-    
     .cooking {
-        top: 4600px;
-        right: 500px;
+        top: 4500px;
+        right: 400px;
     }
 
     /* seventh page  */
 
-    .seventh01 {
-        padding: 5px; 
+    .customer-1 {
+        margin: 1px;
     }
 
-    .customers {
-        padding-left: 10px;
+    .data-1 {
+        margin-top: 30px;
+    }
+
+    .customer-2 {
+        margin: 1px;
+    }
+
+    .data-2 {
+        margin-top: 30px;
     }
 
     .customer-3 {
-        margin-left: 350px;
+    margin-left: 250px;
+
     }
 
-    /* eighth page  */
+
+    /* eight page  */
 
     .name {
-        margin-left: 150px;
+        margin-left: 5px;
     }
-    
+
     .mail {
-        margin-left: 150px;
+        margin-left: 5px;
     }
     
     .message {
-        margin-left: 150px;
+        margin-left: 5px;
     }
-    
+
     .eighth button {
-        margin-left: 400px;
+        margin-left: 250px;
     }
 
     .avocado {
-        top: 6800px;
-        left: 50px;
+        top: 6650px;
     }
-    
+
     .leaf-1 {
-        top: 6300px;
-        left: 50px;
+        top: 6100px;
     }
-    
-    .lemon {
-        top: 6250px;
-        right: 50px;
-    }
-    
+
     .leaf-2 {
-        top: 6800px;
-        right: 70px;
+        top: 6670px;
     }
 
-    /* nineth page  */
-
-    .ninth01 {
-        padding: 100px;
-        gap: 25px;
+    .lemon {
+        top: 6050px;
     }
+    
 
-    .peregraf-3 h1 {
-        font-size: 30px;
-        margin-left: 200px;
-    }
  }

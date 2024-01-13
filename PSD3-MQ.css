@@ -27,7 +27,7 @@
     .menus {
         display: flex;
         padding: 80px;
-        padding-left: 270px;
+        /* padding-left: 270px; */
     }
 
     /* sixth page  */
