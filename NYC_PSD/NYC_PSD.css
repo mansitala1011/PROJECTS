@@ -1,0 +1,367 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+.page1 {
+    padding: 100px;
+}
+
+ul {
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    list-style-type: none;
+    color: black;
+    justify-content: space-around;
+    gap: 10px;
+    padding-top: 50px;
+}
+
+.meal {
+    margin-top: 80px;
+}
+
+.col-50 h1 {
+    color: black;
+    font-weight: 700;
+    font-family: "PT Serif";
+    font-size: 70px;
+}
+
+.col-50 p {
+    color: black;
+    font-weight: 400;
+    font-family: "PT Serif";
+    font-size: 20px;
+}
+
+.get button {
+    background-color: rgb(253, 217, 41);
+    color: black;
+    border-color: black;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+}
+
+.col-50 {
+    padding-left: 10px;
+    display: flex;
+}
+
+.dishes {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* second page  */
+
+.second01 {
+    background-color: white;
+    font-family: "Yeseva One";
+}
+
+.second {
+    display: flex;
+}
+
+.COL-25 {
+    padding: 100px;
+}
+
+.second h1 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.second p {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.second u {
+    font-size: 23px;
+}
+
+/* third page  */
+
+.third01 {
+    background-color: white;
+}
+
+.third h1 {
+   color: black;
+   text-align: center;
+   font-size: 70px;
+   font-weight: 600;
+   text-align: center;
+   padding-top: 50px;
+}
+
+.third p {
+    color: black;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.box1 {
+    display: inline;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.box2 {
+    display: inline;
+    margin-top: 20px;
+}
+
+.mini {
+    display: flex;
+    background-color: rgb(253, 217, 41);
+    color: black;
+    border-color: black;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    gap: 30px;
+}
+
+.menus img {
+    width: 250px;
+    height: 300px;
+}
+
+.half img {
+    width: 250px;
+    height: 310px;
+}
+
+.menus {
+    display: flex;
+    padding: 70px;
+    padding-right: 115px;
+    gap: 200px;
+}
+
+.order {
+    background-color: rgb(253, 217, 41);
+    color: black;
+    width: 100px;
+    height: 25px;
+    border-color: black;
+    text-align: center;
+    font-size: 15px; 
+}
+
+.pagination {
+    padding-left: 700px;
+    padding-bottom: 50px;
+}
+
+/* fifth page  */
+
+.fifth01 {
+    background-color: white;
+    position: relative;
+}
+
+.fifth h1 {
+    color: red;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.fifth p {
+    color: red;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.lable1 {
+    height: 45px;
+    width: 200px;
+    background-color: orange;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 49%;
+    left: 19%;
+}
+
+.lable2 {
+    height: 45px;
+    width: 200px;
+    background-color: orange;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 49%;
+    left: 19%;
+}
+
+.lable3 {
+    height: 45px;
+    width: 200px;
+    background-color: orange;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 49%;
+    left: 19%;
+}
+
+.photo01 {
+    padding-bottom: 100px;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.photos p {
+    background-color: white;
+}
+
+.pera01 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pera {
+    filter: drop-shadow(11.437px 17.612px 5px rgba(12, 13, 12, 0.1));
+    z-index: 1;
+}
+
+.pera .p {
+    background-color: white;
+    font-size: 19px;
+    padding-top: 50px;
+    padding-left: 40px;
+    height: 250px;
+    width: 350px;
+    /* z-index: 1; */
+}
+
+
+
+.btn1 {
+    background-color: rgb(253, 217, 41);
+    color: black;
+    width: 150px;
+    height: 40px;
+    border-color: black;
+    text-align: center;
+    font-size: 15px; 
+    margin-left: 50px;
+}
+
+/* sixth page  */
+
+.sixth01 {
+    padding-top: 100px;
+}
+
+.COL-50 {
+    display: flex;
+    padding-left: 70px;
+    padding-bottom:  100px;
+}
+
+.icons {
+    gap: 30px;
+    display: flex;
+}
+
+.vside {
+    padding: 76px;
+}
+
+.vside h1 {
+    color: black;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.vside p {
+    color: black;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+/* seventh page  */
+
+.seventh01 {
+    background-color: white;
+}
+
+.seventh {
+    display: flex;
+}
+
+.lables {
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.lables h1 {
+    color: black;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+input {
+    background-color: rgb(223, 222, 222);
+    font-size: 17px;
+    height: 50px;
+    width: 600px;
+}
+
+.message input {
+    background-color: rgb(223, 222, 222);
+    height: 200px;
+    width: 600px;
+}
+
+.send button {
+    background-color: rgb(253, 217, 41);
+    color: black;
+    border-color: black;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 17px;
+}
+
+/* eighth page  */
+
+.eighth01 {
+    background-color: orange;
+    padding: 100px;
+}
+
+.footer {
+   display: flex;
+   gap: 30px;
+   padding-top: 50px;
+   color: black;
+   font-size: 20px;
+}
+
+.footer h3 {
+    color: black;
+}

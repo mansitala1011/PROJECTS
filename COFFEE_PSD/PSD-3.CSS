@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-1 {
+    background-image: url(..//COFFEE_PSD//IMAGE/Background\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    padding: 50px;
+}
+
+ul {
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    list-style-type: none;
+    color: white;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.coffee {
+    opacity: initial;
+    background-image: url(..//COFFEE_PSD//IMAGE/coffeebg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    opacity: 0.8;
+    padding: 200px;
+}
+
+.coffee h1 {
+    color: white;
+    font-weight: 700;
+    font-family: "PT Serif";
+    text-align: center;
+    font-size: 70px;
+}
+
+.coffee p {
+    color: white;
+    font-weight: 400;
+    font-family: "PT Serif";
+    text-align: center;
+    font-size: 20px;
+}
+
+.get {
+    padding-left: 400px;
+}
+
+.get button {
+    background-color: rgb(209, 65, 65);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+}
+
+/* second page  */
+
+.page-2 {
+    background-image: url(..//COFFEE_PSD//IMAGE/Background\ \(2\).png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.second {
+    display: flex;
+    padding: 130px;
+    gap: 150px;
+}
+
+.second h1 {
+    color: bisque;
+    font-weight: 700;
+    font-family: "PT Serif";
+    font-size: 50px;
+}
+
+.second p {
+    color: bisque;
+    font-weight: 500;
+    font-family: "PT Serif";
+    font-size: 20px;
+}
+
+.claim {
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: 17px;
+    background-color: bisque;
+    color: rgb(209, 65, 65);
+}
+
+/* third page  */
+
+.third01 {
+    background-color: cornsilk;
+    font-family: "Yeseva One";
+}
+
+.third {
+    display: flex;
+}
+
+.col-50 {
+    padding: 150px;
+}
+
+.third h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.third p {
+    font-size: 20px;
+    color: gray;
+    font-weight: 500;
+}
+
+.third u {
+    color: red;
+    font-size: 20px;
+}
+
+/* forth page  */
+
+.forth01 {
+    background: url(../COFFEE_PSD/IMAGE/Background\ \(2\).png);
+}
+
+.forth h1 {
+   color: white;
+   font-size: 60px;
+   font-weight: 600;
+   text-align: center;
+   padding-top: 50px;
+}
+
+.forth p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.box1 {
+    background-color: white;
+    padding: 15px;
+    font-size: 13px;
+}
+
+.box2 {
+    background-color: white;
+    padding: 15px;
+    font-size: 13px;
+}
+
+.menus img {
+    width: 550px;
+    height: 360px;
+}
+
+.half img {
+    width: 220px;
+    height: 310px;
+}
+
+.menus {
+    display: flex;
+    padding: 70px;
+    padding-left: 200px;
+}
+
+.pagination {
+    padding-left: 700px;
+    padding-bottom: 50px;
+}
+
+/* fifth page  */
+
+.fifth01 {
+    background-color: cornsilk;
+    position: relative;
+}
+
+.fifth h1 {
+    color: red;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.fifth p {
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.lable1 {
+    height: 50px;
+    width: 250px;
+    background-color: bisque;
+    color: rgb(209, 65, 65);
+    border: 2px solid rgb(209, 65, 65);
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 16.3%;
+    left: 8%;
+}
+
+.lable2 {
+    height: 50px;
+    width: 200px;
+    background-color: bisque;
+    color: rgb(209, 65, 65);
+    border: 2px solid rgb(209, 65, 65);
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 16.3%;
+    left: 43%;
+}
+
+.lable3 {
+    height: 50px;
+    width: 200px;
+    background-color: bisque;
+    color: rgb(209, 65, 65);
+    border: 2px solid rgb(209, 65, 65);
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 16.3%;
+    left: 77%;
+}
+
+.photo01 {
+    padding-bottom: 100px;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.photos p {
+    background-color: white;
+}
+
+.pera01 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pera p {
+    background-color: white;
+    font-size: 17px;
+    height: 150px;
+    width: 350px;
+    padding: 50px;
+}
+
+.btn1 {
+    background-color: white;
+    text-align: center;
+}
+
+.btn1 button {
+    background-color: rgb(209, 65, 65);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: none;
+    text-align: center;
+    font-size: 17px; 
+}
+
+/* sixth page  */
+
+.sixth01 {
+    background: url(../COFFEE_PSD/IMAGE/Background\ \(2\).png);
+    background-size: cover;
+}
+
+.COL-50 {
+    display: flex;
+    padding-left: 70px;
+    padding: 100px;
+}
+
+.COL-50 img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    opacity: 0.7;
+}
+
+.vside {
+    padding: 100px;
+}
+
+.vside h1 {
+    color: bisque;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.vside p {
+    color: bisque;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* seventh page  */
+
+.seventh01 {
+    background-color: white;
+}
+
+.seventh {
+    display: flex;
+}
+
+.lables {
+    padding: 100px;
+}
+
+.lables h1 {
+    color: rgb(209, 65, 65);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+input {
+    background-color: rgb(223, 222, 222);
+    font-size: 17px;
+    height: 50px;
+    width: 600px;
+}
+
+.message input {
+    background-color: rgb(223, 222, 222);
+    height: 200px;
+    width: 600px;
+}
+
+.send button {
+    background-color: rgb(209, 65, 65);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+}
+
+/* eighth page  */
+
+.eighth01 {
+    background-color: rgb(209, 65, 65);
+    padding: 100px;
+}
+
+.footer {
+   display: flex;
+   gap: 50px;
+   padding-top: 50px;
+   color: white;
+   font-size: 20px;
+}
+
+.footer h3 {
+    color: bisque;
+}

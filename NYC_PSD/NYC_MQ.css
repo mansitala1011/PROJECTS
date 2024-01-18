@@ -1,0 +1,108 @@
+/* media query 576px  */
+
+@media (min-width: 576px) { 
+
+    /* first page  */
+    
+    .meal {
+        margin-top: 80px;
+    }
+    
+    .col-50 h1 {
+        font-size: 40px;
+    }
+    
+    .col-50 p {
+        color: black;
+        font-weight: 400;
+        font-family: "PT Serif";
+        font-size: 20px;
+    }
+    
+    .get button {
+        background-color: rgb(253, 217, 41);
+        color: black;
+        border-color: black;
+        width: 200px;
+        height: 50px;
+        font-size: 17px;
+    }
+    
+    .col-50 {
+        padding-left: 10px;
+        display: flex;
+    }
+    
+    .dishes {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* thid page  */
+
+    .menus {
+        display: inline-flex;
+        gap: 60px;
+    }
+}
+
+/* media query 1400px  */
+
+@media (min-width: 1400px) { 
+
+    .menus {
+        padding-left: 200px;
+    }
+
+    .vside {
+        padding: 76px;
+    }
+}
+
+/* media query 1200px  */
+
+
+@media (min-width: 1200px) { 
+
+    /* third page  */
+
+    .menus {
+        padding-left: 145px;
+    }
+
+    .menus img {
+        width: 172px;
+        height: 395px;
+    }
+
+    .box1 {
+        margin-top: 10px;
+    }
+
+    /* seventh page  */
+
+    .lables {
+        padding: 15px;
+    }
+
+    .message input {
+        height: 200px;
+        width: 500px;
+    }
+
+    input {
+        font-size: 17px;
+        height: 50px;
+        width: 500px;
+    }
+
+    /* eighth page  */
+
+    .eighth01 {
+        background-color: orange;
+        width: 100%;
+        padding: 100px;
+    }
+}
+
+

@@ -1,0 +1,586 @@
+
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        /* first page CSS  */
+
+        .logo {
+            margin-left: 50px;
+        }
+
+        nav {
+            display: flex;
+            gap: 30%;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: larger;
+            color: white;
+            font-size: 25px;
+            gap: 40px;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 15px;
+            padding: 20px;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        .contaner {
+            background-image: url(../BURGER_PSD/IMAGE/background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 50px;
+        }
+
+        .flex {
+            width: 100%;
+            display: flex;
+            padding-top: 20px;
+        }
+
+        .section h1 {
+            font-size: 90px;
+            color: white;
+            font-weight: 700;
+            font-family: "Archivo";
+            margin-left: 50px;
+            margin: 30px;
+            margin-top: 80px;
+        }
+
+        .section p {
+            font-size: 30px;
+            color: white;
+            font-weight: 400;
+            font-family: "Nunito";
+            text-transform: lowercase;
+            margin-bottom: 50px;
+            margin: 30px;
+        }
+
+        .section button {
+            font-size: 20px;
+            text-transform: uppercase;
+            color: white;
+            font-weight: 300;
+            font-family: "Montserrat";
+            text-align: center;
+            border-radius: 30px;
+            background-color: red;
+            margin: 100px;
+            padding: 10px;
+            margin-top: 30px;
+        }
+
+        /* second page CSS */
+
+        .background {
+            background-color: bisque;
+            width: 100%;
+        }
+
+        .background h2 {
+            font-size: 64px;
+            color: #f64b3c;
+            font-weight: 700;
+            font-family: "Archivo";
+            text-align: center;
+            padding: 50px;
+        }
+
+        .background p {
+            font-size: 25px;
+            color: #f64b3c;
+            font-weight: 400;
+            font-family: "Montserrat";
+            text-align: center;
+        }
+
+        .section-1 {
+            padding: 100px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .image-1 {
+            text-align: center;
+            align-items: center;
+        }
+
+        .image-1 h6 {
+            margin: 10px 0;
+            font-size: 35px;
+            color: #f64b3c;
+        }
+
+        .image-1 p {
+            margin: 0px 0 30px;
+        }
+
+        .image-1 img {
+            text-align: center;
+            align-items: center;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+
+        .stiker1 {
+            position: absolute;
+            top: 870px;
+            right: 150px;
+        }
+
+        .stiker2 {
+            position: absolute;
+            top: 1300px;
+            right: 40px;
+        }
+
+        .stiker3 {
+            position: absolute;
+            top: 1500px;
+            right: 500px;
+        }
+
+        .stiker4 {
+            position: absolute;
+            top: 1480px;
+            right: 1000px;
+        }
+
+        .stiker5 {
+            position: absolute;
+            top: 1100px;
+            left: -5px;
+        }
+
+        .stiker6 {
+            position: absolute;
+            top: 900px;
+            left: 200px;
+        }
+
+        /* third page CSS */
+
+        .third {
+            background-color: #f64b3c;
+        }
+
+        .third img {
+            align-items: center;
+            border-radius: 50%;
+            margin: 150px 150px;
+        }
+
+        .common {
+            display: flex;
+            padding: 50px;
+        }
+
+        .text h1 {
+            margin: 0 auto;
+            color: white;
+            font-size: 20px;
+            padding-top: 200px;
+            font-size: 80px;
+            font-weight: 700;
+            font-family: "Archivo";
+        }
+
+        .text p {
+            font-size: 30px;
+            color: white;
+            font-weight: 400;
+            font-family: "Nunito";
+            text-transform: lowercase;
+        }
+
+        button {
+            width: 200px;
+            height: 40px;
+            border-radius: 30px;
+            color: red;
+            font-weight: 300;
+            font-size: 20px;
+            background-color: white;
+            border: none;
+        }
+
+        /* forth page CSS */
+
+        .forth {
+            background-color: bisque;
+            width: 100%;
+        }
+
+        .child button {
+            text-transform: uppercase;
+            color: white;
+            font-weight: 300;
+            font-family: "Montserrat";
+            border-radius: 30px;
+            background-color: red;
+            text-align: center;
+            border: none;
+        }
+
+        .prochild {
+            font-size: 40px;
+            color: #f64b3c;
+            margin: 0 auto;
+            margin-top: 100px;
+        }
+
+        .child {
+            display: flex;
+            padding: 100px;
+        }
+
+        .burger2 img {
+            align-items: center;
+            border-radius: 50%;
+            margin: 0 0 150px 50px;
+        }
+
+        .pic1 {
+            position: absolute;
+            top: 2540px;
+            left: 600px;
+        }
+
+        .pic2 {
+            position: absolute;
+            top: 2600px;
+            left: -10px;
+        }
+
+        .pic3 {
+            position: absolute;
+            top: 3180px;
+            left: 300px;
+        }
+
+        .pic4 {
+            position: absolute;
+            top: 3150px;
+            left: 700px;
+        }
+
+        .pic5 {
+            position: absolute;
+            top: 3120px;
+            right: 50px;
+        }
+
+        .pic6 {
+            position: absolute;
+            top: 2540px;
+            right: 50px;
+        }
+
+        /* fifth page CSS */
+
+        .fifth01 {
+            background-color: #f64b3c;
+            width: 100%;
+        }
+
+        .fifth {
+            padding: 60px;
+        }
+
+        .fifth h1 {
+            color: white;
+            text-align: center;
+            font-size: 60px;
+            margin: 20px;
+        }
+
+        .fifth p {
+            font-size: larger;
+            color: white;
+            text-align: center;
+        }
+
+        .section-2 {
+            display: flex;
+            font-family: "Archivo";
+            align-items: center;
+            justify-content: space-around;
+            padding: 60px;
+        }
+
+        .circle-1 {
+            font-size: 30px;
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            border: 5px solid white;
+            padding: 50px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .circle-2 {
+            font-size: 30px;
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            border: 5px solid white;
+            padding: 50px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .circle-3 {
+            font-size: 30px;
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            border: 5px solid white;
+            padding: 50px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        /* sixth page CSS */
+
+        .sixth01 {
+            background-color: bisque;
+            width: 100%;
+        }
+
+        .sixth {
+            text-align: center;
+            padding: 50px;
+            font-size: 40px;
+            color: red;
+            font-family: "Archivo";
+        }
+
+        .package01 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .package-1 {
+            height: 350px;
+            width: 250px;
+            background-color: white;
+            align-items: center;
+            text-align: center;
+            justify-content: space-around;
+            color: red;
+            margin: 60px;
+            border-radius: 10px;
+        }
+
+        .package-2 {
+            height: 350px;
+            width: 250px;
+            background-color: white;
+            align-items: center;
+            text-align: center;
+            justify-content: space-around;
+            color: red;
+            margin: 60px;
+            border-radius: 10px;
+        }
+
+        .package-3 {
+            height: 350px;
+            width: 250px;
+            background-color: white;
+            align-items: center;
+            text-align: center;
+            justify-content: space-around;
+            color: red;
+            margin: 60px;
+            border-radius: 10px;
+        }
+
+        .icon {
+            margin-left: 70px;
+            height: 30px;
+            width: 30px;
+        }
+
+        .button {
+            background-color: red;
+            color: white;
+            text-align: center;
+        }
+
+        .photo1 {
+            position: absolute;
+            top: 4060px;
+            right: 150px;
+        }
+
+        .photo2 {
+            position: absolute;
+            top: 4250px;
+            right: 2px;
+        }
+
+        .photo3 {
+            position: absolute;
+            top: 4570px;
+            right: 10px;
+        }
+
+        .photo4 {
+            position: absolute;
+            top: 4550px;
+            left: 10px;
+        }
+
+        .photo5 {
+            position: absolute;
+            top: 4200px;
+            left: 10px;
+        }
+
+        .photo6 {
+            position: absolute;
+            top: 4060px;
+            left: 200px;
+        }
+
+        /* seventh page CSS */
+
+        .seven {
+            background-image: url(../BURGER_PSD/IMAGE/blurImage.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .dolor {
+            padding: 200px;
+        }
+
+        .dolor p {
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 500;
+            font-family: "Archivo";
+            padding: 80px;
+        }
+
+        .dolor h1 {
+            color: white;
+            text-align: center;
+            font-size: 65px;
+            font-weight: 700;
+            font-family: "Archivo";
+        }
+
+        /* eighth page CSS */
+
+        .eight {
+            background-color: bisque;
+            padding-bottom: 180px;
+        }
+
+        .eight01 {
+            padding: 180px;
+        }
+
+        .eight01 h1 {
+            color: #f64b3c;
+            text-align: center;
+            font-size: 60px;
+            font-weight: 700;
+            font-family: "Archivo";
+        }
+
+        .eight01 p {
+            color: #f64b3c;
+            text-align: center;
+            font-size: 25px;
+            font-weight: 500;
+            font-family: "Archivo";
+            padding-top: 30px;
+        }
+
+        .table {
+            align-items: center;
+            padding-left: 400px;
+        }
+
+        .cover1 {
+            position: absolute;
+            top: 5550px;
+            right: 100px;
+        }
+
+        .cover2 {
+            position: absolute;
+            top: 5850px;
+            right: 90px;
+        }
+
+        .cover3 {
+            position: absolute;
+            top: 6090px;
+            right: 150px;
+        }
+
+        .cover4 {
+            position: absolute;
+            top: 6120px;
+            right: 660px;
+        }
+
+        .cover5 {
+            position: absolute;
+            top: 6030px;
+            left: 200px;
+        }
+
+        .cover6 {
+            position: absolute;
+            top: 5800px;
+            left: 100px;
+        }
+
+        .cover7 {
+            position: absolute;
+            top: 5550px;
+            left: 200px;
+        }
+
+        .cover8 {
+            position: absolute;
+            top: 5550px;
+            left: 600px;
+        }
+
+        /* ninth page CSS */
+
+        .footer {
+            background-color: black;
+            width: 100%;
+            color: white;
+        }
+
+        .nine {
+            display: flex;
+            padding: 300px;
+            justify-content: space-between;
+        }

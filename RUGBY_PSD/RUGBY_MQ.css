@@ -1,0 +1,643 @@
+/* mex-width 576  */
+
+@media (max-width: 576px) {
+
+    
+    /* page 1 MQ  */
+    
+    img {
+        width: 100%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .dishes {
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 170px;
+    }
+
+    .food1 {
+        padding-left: 160px;
+    }
+
+    .nudels img {
+        width: 800px;
+    }
+
+    .pera h1 {
+        font-family: "Reey";
+        text-align: center;
+    }
+
+    .left {
+        flex-direction: column;
+    }
+
+    .nudels img {
+        width: 100%;
+    }
+
+    .col-50 h1 {
+        font-size: 120px;
+    }
+
+    .pera1 {
+        padding: 100px;
+    }
+
+    /* page 3 MQ  */
+
+    .pera02 {
+        flex-wrap: wrap;
+        padding-left: 60px;
+    }
+
+    .info {
+        padding-left: 20%;
+    }
+
+    /* page 2 MQ  */
+
+    .show {
+        padding-left: 20%;
+        margin-top: 120px;
+    }
+
+    /* page 4 MQ  */
+
+    .page_4 {
+        flex-direction: column;
+    }
+
+    .right {
+        padding-left: 60px;
+        padding-top: 10px;
+    }
+
+    .col-50 img {
+        height: 450px;
+        width: 450px;
+    }
+
+    .col-50 {
+        width: 100%;
+    }
+
+    /* page 5 MQ  */
+
+    .page_5 {
+        flex-direction: column;
+    }
+
+    .food2 {
+        width: 100%;
+        padding-left: 30px;
+        margin-top: 60px;
+    }
+
+    .food2 img {
+        height: 450px;
+        width: 450px;
+    }
+
+    .leftside {
+        padding-left: 60px;
+    }
+
+    /* page 6 MQ  */
+
+    .img {
+        flex-direction: column;
+    }
+
+    .Design img {
+        padding-right: 17%;
+        padding-left: 20%;
+    }
+
+    .pizza img {
+        height: 400px;
+        width: 400px;
+    }
+ 
+    .pizza_pease img {
+        height: 200px;
+        width: 200px;
+        padding-top: -20px;
+    }
+
+    .pizza_pease {
+        padding-top: 40px;
+        height: 200px;
+    }
+
+    /* page 7 MQ  */
+
+    .items {
+        flex-direction: column;
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+
+    .items h1 {
+        font-size: 55px;
+    }
+
+    .items p {
+        font-size: 23px;
+    }
+
+    /* page 8 MQ  */
+
+    .peregraph h1 {
+        font-size: 56px;
+    }
+
+    .peregraph p {
+        font-size: 17px;
+    }
+
+    .input {
+        padding-left: 1%;
+    }
+
+    .email input {
+        width: 300px;
+    }
+
+    .SUBSCRIBE input {
+        width: 80px;
+        right: 15%;
+    }
+
+    /* page 9 MQ  */
+
+    .part_1 {
+        flex-direction: column;
+    }
+
+    .part_1 {
+        gap: 100px;
+        font-size: 25px;
+    }
+
+}
+
+/* mex-width 768  */
+
+@media (max-width: 768px) {
+ 
+    /* page 1 MQ  */
+    nav {
+        display: none;
+    }
+
+    .dishes {
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 170px;
+    }
+
+    .food1 {
+        padding-left: 160px;
+    }
+
+    .nudels img {
+        width: 800px;
+    }
+
+    .pera h1 {
+        font-family: "Reey";
+        text-align: center;
+    }
+
+    .left {
+        flex-direction: column;
+        padding-right: 90px;
+    }
+
+    .nudels img {
+        width: 100%;
+    }
+
+    .col-50 h1 {
+        font-size: 120px;
+    }
+
+    .pera1 {
+        padding: 100px;
+    }
+
+    
+    /* page 2 MQ  */
+
+    .page_2 {
+        padding: 150px;
+    }
+
+    .dishes {
+        flex-direction: column;
+    }
+
+    .item1 img {
+        padding-left: 50px;
+    }
+
+    .show {
+        padding-left: 20%;
+        margin-top: 120px;
+    }
+
+    .food1 {
+        padding-left: 70px;
+    }
+
+    .food1 h1 {
+        font-size: 50px;
+    }
+
+    .food1 p {
+        font-size: 25px;
+    }
+
+    /* page 3 MQ  */
+
+    .pera02 {
+        flex-wrap: wrap;
+        padding-left: 80px;
+    }
+
+    .info {
+        padding-left: 30%;
+    }
+
+    /* page 4 MQ  */
+
+    .page_4 {
+        flex-direction: column;
+    }
+
+    .right {
+        padding-left: 150px;
+        padding-top: 10px;
+    }
+
+    .col-50 img {
+        height: 600px;
+        width: 600px;
+    }
+
+    .col-50 {
+        width: 100%;
+    }
+
+    /* page 5 MQ  */
+
+    .page_5 {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .food2 {
+        width: 100%;
+        padding-left: 90px;
+        margin-top: 60px;
+    }
+
+    .food2 img {
+        height: 600px;
+        width: 600px;
+    }
+
+    .leftside {
+        padding-left: 150px;
+    }
+
+    /* page 6 MQ  */
+
+    .pizza img {
+        height: 400px;
+        width: 400px;
+    }
+ 
+    .pizza_pease img {
+        height: 200px;
+        width: 200px;
+        padding-top: -20px;
+    }
+
+    /* page 7 MQ  */
+
+    .items {
+        flex-direction: column;
+        padding-left: 150px;
+        padding-top: 20px;
+    }
+
+    .items h1 {
+        font-size: 60px;
+    }
+
+    .items p {
+        font-size: 25px;
+    }
+
+
+    /* page 8 MQ  */
+
+    .peregraph h1 {
+        font-size: 70px;
+    }
+    
+    .peregraph p {
+        font-size: 25px;
+    }
+
+    .email input {
+        width: 470px;
+    }
+
+    .input {
+        padding-left: 0%;
+    }
+
+    .SUBSCRIBE input {
+        width: 150px;
+        right: 14%;
+    }
+
+    /* page 9 MQ  */
+
+    .part_1 {
+        flex-direction: column;
+        padding-left: 60px;
+    }
+
+    .page_9 {
+        padding: 100px;
+    }
+
+    .part_1 {
+        gap: 100px;
+        font-size: 30px;
+    }
+
+}
+
+/* mex-width 992  */
+
+@media (max-width: 992px) {
+
+
+    /* page 1 MQ  */
+
+    nav {
+        gap: 150px;
+    }
+
+    nav ul {
+        padding-left: 30px;
+        padding-top: 35px;
+    }
+
+    .food1 {
+        padding-left: 160px;
+    }
+
+    .nudels {
+        width: 100%;
+    }
+
+    .left {
+        padding-right: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nudels img {
+        width: 100%;
+    }
+
+    .col-50 h1 {
+        font-size: 100px;
+    }
+
+    .pera1 {
+        padding: 100px;
+    }
+
+    /* page 2 MQ  */
+
+    /* page 4 MQ  */
+
+    .page_4 {
+        padding: 80px;
+    }
+
+    .right h1 {
+        font-size: 45px;
+    }
+    
+    .right p {
+        font-size: 15px;
+    }
+    
+
+    .right {
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+
+    .col-50 img {
+        height: 500px;
+        width: 500px;
+    }
+
+    .col-50 {
+        width: 100%;
+    }
+
+    /* page 5 MQ  */
+
+    .page_5 {
+        padding: 10px;
+    }
+
+    .food2 {
+        width: 100%;
+        padding-left: 50px;
+        margin-top: 80px;
+    }
+
+    .food2 img {
+        height: 500px;
+        width: 500px;
+    }
+
+    .leftside {
+        padding-left: 150px;
+    }
+
+    .leftside h1 {
+        font-size: 45px;
+    }
+
+    .leftside p {
+        font-size: 15px;
+    }
+
+    /* page 6 MQ  */
+
+    .peregraph h1 {
+        font-size: 40px;
+    }
+
+    .pizza img {
+        height: 600px;
+        width: 600px;
+    }
+ 
+    .pizza_pease img {
+        height: 300px;
+        width: 300px;
+        padding-top: -20px;
+    }
+
+    /* page 7 MQ  */
+
+    .item h1 {
+        font-size: 45px;
+    }
+
+    /* page 8 MQ  */
+
+    .peregraph h1 {
+        font-size: 90px;
+    }
+    
+    .peregraph p {
+        font-size: 28px;
+    }
+
+    .email input {
+        width: 470px;
+    }
+
+    .input {
+        padding-left: 0%;
+    }
+
+    .SUBSCRIBE input {
+        width: 190px;
+        right: 20%;
+    }
+
+    /* page 9 MQ  */
+
+   .page_9 {
+    padding: 100px;
+   }
+
+   .part_1 {
+    font-size: 20px;
+    gap: 50px;
+   }
+
+}
+
+/* mex-width 1200  */
+
+@media (max-width: 1200px) {
+
+    /* page 1 MQ  */
+
+    nav ul {
+        padding-left: 20px;
+        padding-top: 35px;
+    }
+
+    /* page 4 MQ  */
+
+    .page_4 {
+        padding: 80px;
+    }
+
+    .right h1 {
+        font-size: 45px;
+    }
+    
+    .right p {
+        font-size: 15px;
+    }
+    
+
+    .right {
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+
+    .col-50 img {
+        height: 550px;
+        width: 550px;
+    }
+
+    .col-50 {
+        width: 100%;
+    }
+
+    /* page 5 MQ  */
+
+    .page_5 {
+        padding: 110px;
+    }
+
+    .food2 img {
+        height: 550px;
+        width: 550px;
+    }
+
+    .leftside {
+        padding-left: 100px;
+    }
+
+    .leftside h1 {
+        font-size: 50px;
+    }
+
+    .leftside p {
+        font-size: 20px;
+    }
+
+
+    /* page 6 MQ  */
+
+    .pizza img {
+        height: 700px;
+        width: 700px;
+    }
+
+    /* page 8 MQ  */
+
+    .peregraph h1 {
+        font-size: 100px;
+    }
+    
+    .peregraph p {
+        font-size: 30px;
+    }
+
+    .SUBSCRIBE input {
+        width: 190px;
+        right: 15%;
+    }
+
+    /* page 9 MQ  */
+
+    .page_9 {
+        padding: 100px;
+       }
+
+}
